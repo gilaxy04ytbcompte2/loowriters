@@ -7,7 +7,7 @@
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./storage/img/background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://gilaxy04ytbcompte2.github.io/loowriters/storage/img/background.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,15 +58,19 @@ ul li.active a {
 }
 
 .titre {
+    color: #fff;
+    font-size: 27px;
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.titre h1 {
-    color: #fff;
-    font-size: 70px;
+.text {
+       position: absolute;
+    top: 49%;
+    left: 46%;
+    transform: translate(-80%, 132%);
 }
 
 .bouton {
@@ -88,6 +92,6 @@ ul li.active a {
 }
 
 .btn:hover {
-    background-color: #B7B7B7;
-    color: #FFF;
+    background-color: #fff;
+    color: #000;
 }

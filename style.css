@@ -66,11 +66,21 @@ ul li.active a {
     transform: translate(-50%, -50%);
 }
 
+.titre h1 {
+    color: #fff;
+    font-size: 27px;
+}
+    
 .text {
        position: absolute;
     top: 49%;
     left: 46%;
     transform: translate(-80%, 132%);
+}
+
+.text h5 {
+    color: #fff;
+    font-size: 27px;
 }
 
 .bouton {

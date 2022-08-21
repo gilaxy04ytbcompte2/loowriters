@@ -64,6 +64,8 @@ ul li.active a {
     top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
+        color: #fff;
+    font-size: 50px;
 }
 
 .titre h1 {
@@ -76,6 +78,8 @@ ul li.active a {
     top: 49%;
     left: 46%;
     transform: translate(-80%, 132%);
+    color: #fff;
+    font-size: 27px;
 }
 
 .text h5 {

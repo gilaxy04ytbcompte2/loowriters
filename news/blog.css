@@ -51,9 +51,6 @@ footer .social-media p{
   body{
     margin: 10px 20px;
   }
-  nav .onglets{
-    margin-top: -10px;
-  }
   .articles .article .left img{
     height: 100%;
     width:100%;
@@ -66,6 +63,15 @@ footer .social-media p{
     margin-top: -20px;
   }
 }
+/* top btn*/
+.logo a {
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    height: 10px;
+    width: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 ul li.active a {
     background: #fff;
     color: #000;
@@ -106,4 +112,8 @@ ul {
 user agent stylesheet
 ul {
     list-style-type: disc;
+}
+.navBar {
+    max-width: 114rem;
+    margin: 0 auto;
 }

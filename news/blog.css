@@ -64,6 +64,22 @@ footer .social-media p{
   }
 }
 /* top btn*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://gilaxy04ytbcompte2.github.io/loowriters/storage/img/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .logo a {
     padding: 0px 20px;
     border: 1px solid transparent;
@@ -71,11 +87,15 @@ footer .social-media p{
     width: 10px;
     text-transform: uppercase;
     text-decoration: none;
-  }
-ul li.active a {
-    background: #fff;
-    color: #000;
 }
+
+ul {
+    list-style: none;
+    float: left;
+    display: flex;
+    margin-top: 20px;
+}
+
 ul li a {
     text-decoration: none;
     color: #fff;
@@ -86,34 +106,58 @@ ul li a {
     transition: 0.6s ease;
     cursor: pointer;
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+
+ul li a:hover {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
 }
-user agent stylesheet
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
+
+ul li.active a {
+    background: #fff;    
+    color: #000;
 }
-user agent stylesheet
-li {
-    text-align: -webkit-match-parent;
-}
-ul {
-    list-style: none;
-    float: left;
-    display: flex;
-    margin-top: 20px;
-}
-user agent stylesheet
-ul {
-    list-style-type: disc;
-}
+
 .navBar {
     max-width: 114rem;
     margin: 0 auto;
+}
+
+.titre {
+    color: #fff;
+    font-size: 27px;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+       position: absolute;
+    top: 49%;
+    left: 46%;
+    transform: translate(-80%, 132%);
+}
+
+.bouton {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 18.5px;
+}
+
+.btn {
+    transition: 00.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
 }
